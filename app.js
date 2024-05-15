@@ -15,8 +15,8 @@ app.use(express.urlencoded({extended: true}));
 app.use( express.static( "pic" ) );
 
 
-// const mongoURI =  `mongodb+srv://vikas56:vikas123@cluster0.it2bd.mongodb.net/session?retryWrites=true&w=majority`;
-const mongoURI =  `mongodb+srv://rohitpatel27041996:Rohit1234@cluster0.7gay6yd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
+
+const mongoURI =  `mongodb+srv://username:password@cluster0.7gay6yd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
 
 mongoose.connect(mongoURI, {
